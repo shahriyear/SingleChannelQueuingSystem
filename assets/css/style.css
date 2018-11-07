@@ -1,0 +1,101 @@
+body{
+	font-size: 11px;
+	padding: 0;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container{
+	background-color: #fff;
+} 
+legend{
+	margin: 25px 0 25px 0;
+}
+.header{
+	background: rgba(0,0,0,.05);
+}
+.header .container{
+	background-color: transparent !important;
+}
+.header h3{
+	font-weight: 300;
+}
+.cus p{
+	font-weight: 500;
+}
+.inner{
+	background: #efefef;
+	padding: 15px;
+	text-align: center;
+}
+.inner h5{
+	font-weight: 300;
+}
+.inner p{
+	color: #000;
+	font-weight: 300;
+}
+
+.table thead th, .table td, .table th{font-weight: 500;}
+.jumbotron{
+	padding: 1rem 1rem;
+	border: 1px solid rgba(0,0,0,.05);
+	background: rgba(0,0,0,.05);
+	border-radius: 0 !important;
+}
+.btn{
+	transition: unset;
+	border-radius: 0 !important;
+	font-size: inherit;
+}
+.form-content p{
+	font-weight: 500;
+}
+.section.random{
+	margin-top: -30px;
+}
+.section.random form{
+	width: 475px;
+}
+.section.random input.btn.btn-primary{
+	padding: 15px;
+    max-width: 475px;
+    width: 100%;
+}
+input {
+	border-radius: 0 !important;
+	font-size: 12px !important;
+}
+.btn-primary.focus, .btn-primary:focus, .btn:focus, .btn.focus, input:focus, input:focus{
+	box-shadow: none !important;
+	outline: 0;
+}
+
+.footer{
+	background: rgba(0,0,0,.05);
+}
+.footer .container{
+	background: transparent;
+}
+.footer h5, .footer h6{
+	font-weight: 300;
+	/*margin-top: -30px;*/
+
+}
+/*.footer h5 .imgProfile{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 10px;
+}*/
+/*.footer h6 i{
+	margin: -20px 10px 10px 100px !important;
+	/*padding-bottom: 5px;*/
+}*/
+
+@media(max-width: 767px){
+	h1{font-size: 15px;}
+	h2{font-size: 14px;}
+
+	.cus_tbl{}
+}
